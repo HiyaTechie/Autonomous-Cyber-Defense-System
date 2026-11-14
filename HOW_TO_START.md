@@ -46,7 +46,7 @@ Visit http://localhost:5000 to see the fake login page.
 
 **Terminal 2 - Dashboard**
 ```bash
-cd ACDS
+cd Autonomous-Cyber-Defense-System
 python manage.py migrate
 python manage.py runserver 0.0.0.0:8000
 ```
@@ -54,7 +54,7 @@ Visit http://localhost:8000 to see the SOC dashboard.
 
 **Terminal 3 - Generate test data**
 ```bash
-cd ACDS
+cd Autonomous-Cyber-Defense-System
 python tests/simulate_attack.py --web --scan
 ```
 This sends fake attacks so you have data to look at in the dashboard.
