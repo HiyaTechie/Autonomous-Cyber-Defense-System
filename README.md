@@ -11,7 +11,7 @@ Attacker → Honeypot → MongoDB → Intel (VT+OTX) → Decision Engine → ipt
 ## 📁 Project Structure
 
 ```
-ACDS/
+Autonomous-Cyber-Defense-System/
 ├── honeypot/
 │   ├── web_honeypot.py      # Flask fake login page
 │   └── ssh_honeypot.py      # Paramiko SSH trap
@@ -70,7 +70,7 @@ sudo systemctl enable mongod
 
 ```bash
 git clone <your-repo>
-cd ACDS
+cd Autonomous-Cyber-Defense-System
 
 # Create virtual environment
 python3 -m venv venv
